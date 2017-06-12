@@ -1,0 +1,2 @@
+<div class="tree-node" (click)="toggleExpandCollapse()">{{node.name}}</div>
+<tree-node-children *ngIf="nodeChildren" [nodeChildren]="nodeChildren"></tree-node-children>

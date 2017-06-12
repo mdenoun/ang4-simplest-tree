@@ -1,0 +1,11 @@
+.tree-node {
+  width: 100%;
+  margin-left: 15px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: Arial;
+}
+.tree-node:hover {
+  background-color: lightblue;
+}
